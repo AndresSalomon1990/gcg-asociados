@@ -1,0 +1,35 @@
+main {
+    .cover-letter-content {
+        font-family: 'Courgette', cursive;
+    }
+
+    .service {
+        .img-section {
+            width: 100%;
+        }
+        
+        .service-feature-button {
+            width: 100%;
+        }
+
+        .service-feature-button-half {
+            width: 50%;
+        }
+
+        .service-feature-button-third{
+            width: 33.33%;
+        }
+
+        .service-feature-button-quarter{
+            width: 25%;
+        }
+    }
+
+    .about-us {
+        .profile-img {
+                max-height: 200px;
+        }
+    }
+}
+
+

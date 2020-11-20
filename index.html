@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="G.C.G. Asociados se ha incorporado al mercado de las empresas proveedoras de Servicios de Consultoría Empresarial y Tributaria. Somos una nueva opción de consultoría para el mercado. Nuestra empresa brinda asesoría integral, global, con alto valor. ">
+    <meta name="Content-language" content="es">
+    <title>G.C.G. Asociados - Auditores, Consultores, Abogados</title>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./style/style.css">
+
+    <script src="https://kit.fontawesome.com/64517a6b26.js" crossorigin="anonymous"></script>
+    <script src="./js/index.js" defer></script>
+    <script src="./js/carousel.js" defer></script>
+</head>
+<body>
+    <!-- Sidebar START -->
+    <nav class="w3-sidebar w3-black w3-animate-top w3-xlarge" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeSidebar()" class="w3-button w3-black w3-xxlarge w3-padding-large w3-display-topright">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="w3-bar-block w3-center">
+            <a href="#audit" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeSidebar()">Auditorías</a>
+            <a href="#counseling" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeSidebar()">Asesorías</a>
+            <a href="#outsourcing" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeSidebar()">Outsourcing</a>
+            <a href="#legal-counseling" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeSidebar()">Asesoría Legal</a>
+            <a href="#human-talent" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeSidebar()">Talento Humano</a>
+            <a href="#about-us" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeSidebar()">Sobre nosotros</a>
+        </div>
+    </nav>
+    <!-- Sidebar END -->
+
+    <!-- Header parallax image with logo text START -->
+    <header>
+        <div class="bgimg-header w3-display-container w3-opacity-min" id="home">
+            <span class="w3-button w3-padding-large w3-text-white w3-xxlarge w3-right" id="bars" onclick="openSidebar()" title="Abrir menú"><i class="fa fa-bars"></i></span>
+            <div class="w3-display-middle">
+                <h1 class="w3-center w3-padding-large w3-white w3-xlarge w3-wide w3-animate-opacity"><b>G.C.G ASOCIADOS</b></h1>
+                <h2 class="w3-center w3-padding-large w3-text-white w3-large w3-wide w3-animate-opacity w3-hide-small"><b>Auditores, Consultores, Abogados</b></h2>
+            </div>
+        </div>
+    </header>
+    <!-- Header parallax image with logo text END -->
+
+    <a href="#" class="w3-button w3-light-grey w3-right to-the-top w3-opacity-max w3-hover-opacity-off"><i class="fa fa-arrow-up"></i></a>
+
+    <main>
+        <!-- Cover letter section START -->
+        <section class="w3-center w3-container">
+            <button onclick="openModal('cover-letter')" class="w3-button w3-white w3-text-indigo w3-bottombar w3-large w3-mobile">Carta de presentación</button>
+            <div id="cover-letter" class="w3-modal">
+                <div class="w3-modal-content w3-card-4 w3-animate-opacity">
+                    <div class="w3-container w3-indigo"> 
+                        <span onclick="closeModal('cover-letter')" class="w3-button w3-display-topright">&times;</span>
+                        <h3>Carta de presentación</h3>
+                    </div>
+                    <div class="w3-container w3-justify w3-padding-large">
+                        <p class="cover-letter-content">G.C.G. Asociados se ha incorporado al mercado de las empresas proveedoras de Servicios de Consultoría Empresarial y Tributaria. Somos una nueva opción de consultoría para el mercado. Nuestra empresa brinda asesoría integral, global, con alto valor.<br><br>
+                        Nos caracterizamos por ser una moderna e innovadora empresa de consultoría, que ofrece a sus clientes desarrollar un trabajo serio, profesional, con una eficiente metodología y aplicación de modernas técnicas estratégicas ya probadas en el mercado.<br><br>
+                        Nuestro innovador modelo de trabajo nos permite cumplir con la misión de entregar un alto nivel técnico a través de la competencia y experiencia de nuestros consultores asociados, con una propuesta de tarifas muy competitiva. Nuestro Plan Estratégico de transferencia de valor, está dado por un modelo y estructura de bajos costos fijos en infraestructura y recursos humanos, de tal manera que nos permite traspasar parte de este ahorro a su empresa y crear valor de inmediato.<br><br>
+                        Esperamos pronto poder asesorarlo en los diversos temas que su empresa requiera y comenzar a construir una relación de largo plazo. 
+                        </p>
+                    </div>
+                    <div class="w3-container w3-indigo w3-center">
+                        <h4>Lic. Celeste Giménez</h4>
+                        <p>Socio Fundador</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Presentation letter section END -->
+        
+        <!-- Services section START -->
+        <section class="service w3-container">
+            <h2 class="w3-center w3-padding-large w3-xlarge w3-wide">NUESTROS SERVICIOS</h2>
+
+            <!-- Audit section START-->
+            <div class="w3-row-padding">
+                <div class="w3-col w3-third w3-panel">
+                    <img class="img-section w3-image w3-opacity-min w3-hide-small" src="./res/undraw_the_search_s0xf.svg" alt="Auditorías">
+                </div>
+
+                <div class="w3-col w3-twothird w3-justify w3-panel">
+                    <h3 class="w3-center w3-padding" id="audit">Auditorías</h3>
+                    <p>Nuestro trabajo se sostiene en:</p>
+                    <br>
+                    <ul>
+                        <li>Oportuna planificación </li>
+                        <li>Rigurosa evaluación de los riesgos de los negocios</li>
+                        <li>Profundo conocimiento de los negocios del cliente</li>
+                        <li>Realización de diagnósticos y pruebas de procesos y transacciones</li>
+                        <li>Proporcionar sugerencias y recomendaciones realistas y concretas </li>
+                    </ul>
+                    <br>
+                    <p>Para brindar un servicio efectivo y eficiente, revisamos los procesos y sistemas, con el objeto de sustentar los procedimientos específicos de auditoría y poder brindar su gerencia y recomendaciones. En síntesis, nuestra firma brinda servicios de auditoría de calidad, tendientes a satisfacer las necesidades legales, operativas y regulatorias de nuestros clientes, agregando valor en todos aquellos aspectos en los que se detecten oportunidades de mejora en los procesos y actividades de las empresas.</p>
+                    <br>
+                    <p>Damos servicios de auditoría a aquellas empresas que deben contar con un informe de auditoría externa por razones legales o regulatorias específicas. En estos casos, emitimos nuestra opinión sobre la razonabilidad de la información contable de la empresa, asesoramos sobre las debilidades de control interno que hayan sido detectadas y cumplimos con los requisitos de información requeridos por organismos de Control. A efectos de desarrollar las tareas en forma eficiente y eficaz, evaluamos los riesgos estratégicos del negocio a través de un detallado análisis del mercado y las actividades de las empresas.</p>
+
+                    <!-- First row buttons START-->
+                    <div class="w3-bar w3-margin-top">
+                        <button onclick="openModal('financial-audit')" class="service-feature-button-third w3-button w3-border w3-bar-item w3-indigo w3-mobile">Financiera</button>
+                        <div id="financial-audit" class="w3-modal">
+                            <div class="w3-modal-content w3-card-2 w3-animate-opacity">
+                                <div class="w3-container w3-indigo w3-center"> 
+                                    <span onclick="closeModal('financial-audit')" class="w3-button w3-display-topright">&times;</span>
+                                    <h3>Auditoría Financiera</h3>
+                                </div>
+                                <div class="w3-container w3-justify w3-padding-large">
+                                    <p>Nuestro objetivo es entregar una seguridad razonable en un encargo de aseguramiento de sus estados financieros, tal forma que la gerencia, la junta de socios, inversionistas, acreedores, proveedores, instituciones financieras obtengan una información financiera confiable y de calidad, por ello nuestros servicios incluyen auditoría de estados financieros con el fin de emitir un dictamen sobre los mismos. Este proceso de auditoria se aplica en base a estándares internacionales de auditoria.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button onclick="openModal('tax-audit')" class="service-feature-button-third w3-button w3-border w3-bar-item w3-indigo w3-mobile">Tributaria</button>
+                        <div id="tax-audit" class="w3-modal">
+                            <div class="w3-modal-content w3-card-2 w3-animate-opacity">
+                                <div class="w3-container w3-indigo w3-center"> 
+                                    <span onclick="closeModal('tax-audit')" class="w3-button w3-display-topright">&times;</span>
+                                    <h3>Auditoría Tributaria</h3>
+                                </div>
+                                <div class="w3-container w3-justify w3-padding-large">
+                                    <p>Nuestro servicio consiste en verificar la correcta determinación de las obligaciones tributarias, tanto formales como sustanciales. Nuestro servicio de auditoria tributaria tiene un centro fundamental con respecto al cumplimiento de los Impuestos, en vista que el resultado contable es el punto de partida para la determinación de la base imponible. Esto no obliga a conciliar la preparación de los estados financieros preparados bajo NIIF-IFRS con la presentación de la declaración jurada del impuesto a la renta a fin de brindar mayor aseguramiento y menor riesgo tributario ante un proceso de fiscalización.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button onclick="openModal('internal-control-audit')" class="service-feature-button-third w3-button w3-border w3-bar-item w3-indigo w3-mobile">Control Interno</button>
+                        <div id="internal-control-audit" class="w3-modal">
+                            <div class="w3-modal-content w3-card-2 w3-animate-opacity">
+                                <div class="w3-container w3-indigo w3-center"> 
+                                    <span onclick="closeModal('internal-control-audit')" class="w3-button w3-display-topright">&times;</span>
+                                    <h3>Auditoría de Control Interno</h3>
+                                </div>
+                                <div class="w3-container w3-justify w3-padding-large">
+                                    <p>El control interno en las empresas es importante en la medida en que es útil para optimizarla y para prevenir errores y fraudes; el cual se vale de una cadena de valor compuesta por el diseño, implementación, evaluación, auditoría y supervisión. Como parte del proceso de auditoría, realizamos el relevamiento y evaluación de los sistemas de control interno de las empresas para valorar su impacto en las operaciones. La evaluación incluye la realización de exhaustivas pruebas de cumplimiento para asegurar el adecuado funcionamiento del sistema. Asimismo, llevamos a cabo evaluaciones con un alcance más significativo para nuestros clientes, en la medida que las compañías deseen realizar controle sin dependientes de sus áreas críticas. Las evaluaciones concluyen con la presentación de reportes de observaciones y recomendaciones que se estimen oportunas con el objeto de lograrla implementación de las mejores prácticas en cada proceso. Nosotros nos encargamos de evaluar el sistema de control interno bajo un concepto de proceso que involucra a todas las áreas funcionales de empresa, diseñamos esta evaluación y prueba con el fin de proveer seguridad razonable en relación con el logro de los objetivos de su empresa.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- First row buttons END-->
+
+                    <!-- Second row buttons START -->
+                    <div class="w3-bar w3-margin-top">
+                        <button onclick="openModal('internal-audit')" class="service-feature-button-third w3-button w3-border w3-bar-item w3-indigo w3-mobile">Interna</button>
+                        <div id="internal-audit" class="w3-modal">
+                            <div class="w3-modal-content w3-card-2 w3-animate-opacity">
+                                <div class="w3-container w3-indigo w3-center"> 
+                                    <span onclick="closeModal('internal-audit')" class="w3-button w3-display-topright">&times;</span>
+                                    <h3>Auditoría Interna</h3>
+                                </div>
+                                <div class="w3-container w3-justify w3-padding-large">
+                                    <p>Realizamos la evaluación de los riesgos operacionales y el diseño de programas detallados de actividades de control según las necesidades de cada cliente. Somos capaces de llevar a cabo la función de auditoría interna en forma tercerizada y/o brindar apoyo a la función de Auditoría interna con nuestros recursos humanos.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button onclick="openModal('labor-audit')" class="service-feature-button-third w3-button w3-border w3-bar-item w3-indigo w3-mobile">Laboral</button>
+                        <div id="labor-audit" class="w3-modal">
+                            <div class="w3-modal-content w3-card-2 w3-animate-opacity">
+                                <div class="w3-container w3-indigo w3-center"> 
+                                    <span onclick="closeModal('labor-audit')" class="w3-button w3-display-topright">&times;</span>
+                                    <h3>Auditoría Laboral</h3>
+                                </div>
+                                <div class="w3-container w3-justify w3-padding-large">
+                                    <p>Mediante el estudio y análisis de la documentación laboral y de seguridad social de una empresa, la auditoría laboral debe permitir conocer el grado de cumplimiento de la normativa laboral y social, las condiciones aplicables en la empresa, evaluar y cuantificar las contingencias que se puedan derivar de cualquier incumplimiento y establecer recomendaciones que ayuden a corregir y minimizar aquellas situaciones negativas que se vengan produciendo en el marco de las relaciones laborales. Es importante realizar una auditoría laboral para la toma de decisiones; para prevenir posibles conflictos laborales; para evitar sanciones administrativas; para evitar responsabilidades del empresario; para aprovechar las ventajas de la correcta aplicación de la normativa laboral; y para la negociación de una compraventa, fusión o absorción de empresas, por ejemplo.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button onclick="openModal('special-exams-audit')" class="service-feature-button-third w3-button w3-border w3-bar-item w3-indigo w3-mobile">Exámenes Especiales</button>
+                        <div id="special-exams-audit" class="w3-modal">
+                            <div class="w3-modal-content w3-card-2 w3-animate-opacity">
+                                <div class="w3-container w3-indigo w3-center"> 
+                                    <span onclick="closeModal('special-exams-audit')" class="w3-button w3-display-topright">&times;</span>
+                                    <h3>Auditoría Exámenes Especiales</h3>
+                                </div>
+                                <div class="w3-container w3-justify w3-padding-large">
+                                    <p>Nuestro encargo puede estar referida a una partida o conjuntos de partidas específicas, como, por ejemplo: Tesorería y flujo de caja, cuentas por cobrar y cuentas por pagar, entregas a rendir cuenta, inventarios, etc. Preparamos certificaciones e informes especiales de auditoría sobre aspectos específicos en materia contable, a efectos de cumplir con requerimientos de organismos de control o como soporte de transacciones entre compañías. Siempre nuestros servicios son planificados y ejecutados en base a normas internacionales de otros trabajos de aseguramiento. Un trabajo de aseguramiento conlleva la planificación y aplicación de procedimientos para obtener elementos de juicio sobre la información presentada. Los procedimientos seleccionados dependen del juicio y naturaleza del negocio, incluyendo la valoración del riesgo de incorrecciones significativas en la información presentada.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second row buttons END -->
+
+                    <!-- Third row buttons START -->
+                    <div class="w3-bar w3-margin-top">
+                        <button onclick="openModal('fraud-prevention')" class="service-feature-button w3-button w3-border w3-bar-item w3-indigo w3-mobile">Prevención del Fraude</button>
+                        <div id="fraud-prevention" class="w3-modal">
+                            <div class="w3-modal-content w3-card-2 w3-animate-opacity">
+                                <div class="w3-container w3-indigo w3-center"> 
+                                    <span onclick="closeModal('fraud-prevention')" class="w3-button w3-display-topright">&times;</span>
+                                    <h3>Prevención del Fraude</h3>
+                                </div>
+                                <div class="w3-container w3-justify w3-padding-large">
+                                    <p>Asistimos a nuestros clientes en la evaluación de la integridad de sus negocios mediante la detección, prevención e investigación de fraude, de conductas irregulares, y en el desarrollo de controles y programas para mitigarlos. Estos servicios incluyen la evaluación de irregularidades contables, informes financieros fraudulentos, malversación de fondos y violación de leyes, normas o contratos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third row buttons END -->
+                </div>
+            </div>
+            <!-- Audit section END-->
+
+            <!-- Counseling service section START -->
+            <div class="w3-row-padding">
+                <div class="w3-col w3-twothird w3-justify w3-panel">
+                    <h3 class="w3-center w3-padding" id="counseling">Asesorías</h3>
+
+                    <!-- Tab buttons START-->
+                    <div class="w3-bar w3-indigo w3-margin-top">
+                        <button onclick="openTab(event, 'tax-counseling')" class="service-feature-button-third w3-button w3-border w3-bar-item w3-black w3-mobile tab-link">Asesoramiento impositivo</button>
+
+                        <button onclick="openTab(event, 'tax-credit-balance')" class="service-feature-button-third w3-button w3-border w3-bar-item w3-mobile tab-link">Recupero créditos fiscales</button>
+
+                        <button onclick="openTab(event, 'regulatory-aspects')" class="service-feature-button-third w3-button w3-border w3-bar-item w3-mobile tab-link">Aspectos regulatorios</button>
+                    </div>
+                    <!-- Tab buttons END-->
+
+                    <div id="tax-counseling" class="w3-container w3-animate-opacity w3-card w3-padding-large tab">
+                        <h4>Asesoramiento Impositivo</h4>
+                        <p>Nuestros profesionales cuentan con la experiencia y conocimientos necesarios para brindar asesoramiento fiscal en temas específicos a nuestros clientes. También podemos asistirlos en la evaluación tributaria de distintas alternativas de inversión y/o expansión de negocios. Los servicios incluyen el análisis de impactos fiscales en las operaciones, opiniones sobre temas controversiales, asistencia en inspecciones y auditorías fiscales y definición de estrategias en temas contenciosos o disputas con los fiscos a nivel nacional, provincial y municipal. Brindamos, asimismo, asesoramiento fiscal en procesos de reorganización y/o transformación societaria, reestructuraciones de operaciones y deudas y proyectos de inversión.</p>
+                    </div>
+                    
+                    <div id="tax-credit-balance" class="w3-container w3-animate-opacity w3-card w3-padding-large tab" style="display:none">
+                        <h4>Asesoramiento y Tramitaciones de recupero de créditos fiscales y saldos a favor</h4>
+                        <p>Asesoramos a las empresas en el análisis de gestión y aplicación de saldos a favor o créditos fiscales inmovilizados. Nuestros profesionales se encuentran capacitados para efectuar los recupero de créditos fiscales tanto a nivel nacional como provincial. Preparamos solicitudes de reembolsos, reintegros o transferencias de impuestos entre contribuyentes.</p> 
+                    </div>
+                    
+                    <div id="regulatory-aspects" class="w3-container w3-animate-opacity w3-card w3-padding-large tab" style="display:none">
+                        <h4>Asesoramiento en aspectos regulatorios</h4>
+                        <p>En el caso de clientes que están sujetos a controles regulatorios específicos por la naturaleza de su actividad brindamos apoyo y asistencia para verificar en forma permanente el cumplimiento de los requisitos establecidos y los asistimos en la maximización de los beneficios o minimización de los inconvenientes derivados de cambios regulatorios.</p>
+                    </div>
+                </div>
+
+                <div class="w3-col w3-third w3-panel">
+                    <img class="img-section w3-image w3-opacity-min w3-hide-small" src="./res/undraw_right_direction_tge8.svg" alt="Asesorías">
+                </div>
+            </div>
+            <!-- Counseling service section END -->
+
+            <!-- Outsourcing service section START -->
+            <div class="w3-row-padding">
+                <div class="w3-col w3-third w3-panel">
+                    <img class="img-section w3-image w3-opacity-min w3-hide-small" src="./res/undraw_Analytics_re_dkf8.svg" alt="Outsourcing">
+                </div>
+
+                <div class="w3-col w3-twothird w3-justify w3-panel">
+                    <h3 class="w3-center w3-padding" id="outsourcing">Outsourcing Contable</h3>
+                    <p>
+                        Transformamos sus transacciones y datos en información financiera valiosa, nuestros servicios son de diseño, implementación y supervisión de un sistema contable moderno de acuerdo a la naturaleza de sus negocios, este proceso se basa en el Nuevo Plan contable empresarial aplicable obligatoriamente. <br><br>
+
+                        Nuestro objetivo es que cumpla los objetivos financieros y fiscales y generen valor para su empresa. Nuestros servicios de procesamiento contable es alta calidad y confiabilidad y están respaldados por personal de amplia experiencia, la finalidad es que nuestro cliente no tenga que preocuparse por este proceso administrativo y se focalice en sus operaciones de negocio, somos una solución por nuestra especialidad en este aspecto. <br><br>
+
+                        Asimismo, preparamos las Declaraciones Juradas mensuales de IVA, retenciones realizadas a terceros, Cuadro de Resultados mensuales  y el Informe Anual que requiere la intervención de un auditor independiente. Para ello contamos con bases de datos electrónicas de transacciones y compañías comparables, realizando los análisis económicos requeridos por un equipo constituido por contadores públicos y auditores. <br><br>
+
+                        Asimismo, analizamos las estructuras más apropiadas para optimizar los efectos tributarios y de seguridad social. También brindamos el servicio de preparación de declaraciones juradas, aplicabilidad de convenios de seguridad social, cálculo de impuesto hipotético y ecualización impositiva anual.
+                    </p>
+
+                    <!-- Row buttons START -->
+                    <div class="w3-bar w3-margin-top">
+                        <button onclick="openModal('accounting-update')" class="service-feature-button-half w3-button w3-border w3-bar-item w3-indigo w3-mobile">Actualización Contable</button>
+                        <div id="accounting-update" class="w3-modal">
+                            <div class="w3-modal-content w3-card-2 w3-animate-opacity">
+                                <div class="w3-container w3-indigo w3-center"> 
+                                    <span onclick="closeModal('accounting-update')" class="w3-button w3-display-topright">&times;</span>
+                                    <h3>Actualización Contable</h3>
+                                </div>
+                                <div class="w3-container w3-justify w3-padding-large">
+                                    <p>Tiene su información financiera atrasada, no se preocupe nosotros nos encargamos de poner al día evitando riesgos de información, nuestro proceso de servicios es diseñar un plan de actualización de acuerdo a un cronograma establecido.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button onclick="openModal('obtaining-funding')" class="service-feature-button-half w3-button w3-border w3-bar-item w3-indigo w3-mobile">Obtención Financiamiento</button>
+                        <div id="obtaining-funding" class="w3-modal">
+                            <div class="w3-modal-content w3-card-2 w3-animate-opacity">
+                                <div class="w3-container w3-indigo w3-center"> 
+                                    <span onclick="closeModal('obtaining-funding')" class="w3-button w3-display-topright">&times;</span>
+                                    <h3>Obtención de Financiamiento</h3>
+                                </div>
+                                <div class="w3-container w3-justify w3-padding-large">
+                                    <p>Le ayudamos a tener la mejor estrategia para la Obtención de Financiamiento para su Empresa o Negocio: Evaluación de su situación Financiera y Legal; Saneamiento legal, tributario y contable financiero; Recopilación y Ordenamiento de la Información Necesaria. Asesoría para la elección de la fuente de financiamiento.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row buttons END -->
+                </div>
+            </div>
+            <!-- Outsourcing service section END -->
+
+            <!-- Legal counseling service section START -->
+            <div class="w3-row-padding">
+                <div class="w3-col w3-twothird w3-justify w3-panel">
+                    <h3 class="w3-center w3-padding" id="legal-counseling">Asesoría Legal</h3>
+
+                    <!-- Tab buttons START-->
+                    <div class="w3-bar w3-indigo w3-margin-top">
+                        <button onclick="openTab(event, 'contract-counseling')" class="service-feature-button-quarter w3-button w3-border w3-bar-item w3-black w3-mobile tab-link">Asesoría / Contratos</button>
+
+                        <button onclick="openTab(event, 'corporate-law')" class="service-feature-button-quarter w3-button w3-border w3-bar-item w3-mobile tab-link">Derecho Corporativo</button>
+
+                        <button onclick="openTab(event, 'state-contracts')" class="service-feature-button-quarter w3-button w3-border w3-bar-item w3-mobile tab-link">Contrataciones / Estado</button>
+
+                        <button onclick="openTab(event, 'regulatory-law')" class="service-feature-button-quarter w3-button w3-border w3-bar-item w3-mobile tab-link">Derecho Reg./Adm.</button>
+                    </div>
+                    <!-- Tab buttons END-->
+
+                    <div id="contract-counseling" class="w3-container w3-animate-opacity w3-card w3-padding-large tab">
+                        <h4>Asesoría en Contratos</h4>
+                        <p>En G.C.G Asociados elaboraremos su contrato y le brindaremos la adecuada orientación sobre el negocio que usted piensa realizar. Quedamos a su disposición para la realización de: Negociaciones Pre-contractuales. Redacción de Contratos.  Redacción de Contratos Típicos y especiales como Consorcios y otro tipo de unión para negocios. Asesoría en Incumplimiento o Ejecución Contractual.</p>
+                    </div>
+                    
+                    <div id="corporate-law" class="w3-container w3-animate-opacity w3-card w3-padding-large tab" style="display:none">
+                        <h4>Derecho Corporativo</h4>
+                        <p>Le asesoraremos de manera integral en el manejo de su empresa en las áreas siguientes: Fideicomisos y contratos de depósito y garantía. Manejo y actualización de libros corporativos, registros de sociedades, escrituras y poderes en el Registro Público Procedimientos de disolución, liquidación, escisión y re-estructuración de sociedades Auditorías Legales.</p> 
+                    </div>
+                    
+                    <div id="state-contracts" class="w3-container w3-animate-opacity w3-card w3-padding-large tab" style="display:none">
+                        <h4>Contrataciones con el Estado</h4>
+                        <p>Le asesoramos y acompañamos desde la etapa previa hasta la firma del contrato con el Estado: Inscripción en la DNCP Diseño de estrategia para la obtención de la licitación Consultas y obtención de las bases Monitoreo de los trámites Elaboración de la oferta Recomendaciones si se obtiene la buena pro-Redacción de Recursos y Apelaciones Revisión de documentación y asesoría en la ejecución del contrato.</p>
+                    </div>
+
+                    <div id="regulatory-law" class="w3-container w3-animate-opacity w3-card w3-padding-large tab" style="display:none">
+                        <h4>Derecho Regulatorio y Administrativo</h4>
+                        <p>Trabajamos en la obtención de permisos y licencias, así como concesiones y su defensa ante todas las entidades estatales.</p>
+                    </div>
+                </div>
+
+                <div class="w3-col w3-third w3-panel">
+                    <img class="img-section w3-image w3-opacity-min w3-hide-small" src="./res/undraw_Analytics_re_dkf8.svg" alt="Asesoría Legal">
+                </div>
+            </div>
+            <!-- Legal counseling service section END -->
+
+            <!-- Human talent service section START -->
+            <div class="w3-row-padding">
+                <div class="w3-col w3-third w3-panel">
+                    <img class="img-section w3-image w3-opacity-min w3-hide-small" src="./res/undraw_education_f8ru.svg" alt="Talento Humano">
+                </div>
+
+                <div class="w3-col w3-twothird w3-justify w3-panel">
+                    <h3 class="w3-center w3-padding" id="human-talent">Talento Humano</h3>
+
+                    <!-- Slides START-->
+                    <div class="w3-content w3-display-container" style="height: 100%;">
+                        <div class="mySlides w3-container w3-card w3-padding-large">
+                            <h4>Auditoría de procesos de RRHH</h4>
+                            <p>A través de métodos comprobados se revisan las políticas administrativas y de gestión, los procedimientos internos, la documentación y los programas de recursos humanos con la finalidad de identificar puntos clave a mejorar dentro de la organización.</p>
+                        </div>
+                        <div class="mySlides w3-container w3-card w3-padding-large">
+                            <h4>Valuación de puestos y compensación total</h4>
+                            <p>Asignar el puesto con el perfil adecuado de cada empleado y por supuesto que reciba una compensación económica acorde con sus competencias y aportes a la organización.</p>
+                        </div>
+                        <div class="mySlides w3-container w3-card w3-padding-large">
+                            <h4>Employer branding</h4>
+                            <p>Diseñamos acciones concretas orientadas a posicionar la organización como un buen lugar para trabajar, creando una reputación como empleador y como marca empleadora.</p>
+                        </div>
+                        <div class="mySlides w3-container w3-card w3-padding-large">
+                            <h4>Propuesta de valor al empleado PVE</h4>
+                            <p>Implementamos propuestas de valor que muestre una suma de beneficios económicos y por sobre todo de ventajas emocionales que busca atraer el talento necesario, retenerlo y que alcance su mejor desempeño. Es en esta propuesta donde entra otra forma de salario que es el salario emocional.</p>
+                        </div>
+                        <div class="mySlides w3-container w3-card w3-padding-large">
+                            <h4>Clima organizacional y comunicaciones</h4>
+                            <p>Es fundamental en toda organización lograr una relación satisfactoria entre los miembros de la empresa, no solo en el proceso de consultoría sino también que perdure en el tiempo.</p>
+                        </div>
+                        <div class="mySlides w3-container w3-card w3-padding-large">
+                            <h4>Selección de Talentos, inducción y adecuación persona – puesto</h4>
+                            <p>El éxito del desempeño de todas las personas empieza con un buen proceso de selección, el objetivo debe ser contratar a las personas idóneas para cada puesto laboral, teniendo en cuenta además de la preparación académica los aspectos intrínsecos que afectan al desarrollo de competencias laborales. La experiencia de nuestros profesionales avala procesos transparentes y eficientes, que incluye además el acompañamiento de los nuevos en la primera etapa de adaptación.</p>
+                        </div>
+                        <div class="mySlides w3-container w3-card w3-padding-large">
+                            <h4>Training y desarrollo de talentos</h4>
+                            <p>Las empresas más exitosas están compuestas por personas que apuestan por el aprendizaje y el desarrollo continuo, por ello, colaboramos con nuestros clientes en la identificación, formación y desarrollo de talentos. Cada programa responde a necesidades específicas de la organización, teniendo en cuenta la industria a la que pertenecen, el foco de su negocio y la cultura y políticas organizacionales.
+                            <br><br>
+                            Ofrecemos innovadores programas de profesionalización que brinden soluciones integrales adecuadas a cada cliente y sus necesidades, las cuales serán previamente analizadas.</p>
+                        </div>
+                    </div>
+
+                    <div class="w3-center">
+                        <div class="w3-section">
+                            <button class="w3-button w3-indigo" onclick="plusDivs(-1)">&#10094;</button>
+                            <button class="w3-button w3-indigo" onclick="plusDivs(1)">&#10095;</button>
+                        </div>
+                    </div>
+                    <!-- Slides END-->
+                </div>
+            </div>
+            <!-- Human talent service section END -->
+        </section>
+        <!-- Services section END --> 
+
+        <!-- About us section START-->
+        <section class="w3-container about-us">
+            <h2 class="w3-center w3-padding-large w3-xlarge w3-wide" id="about-us">SOBRE NOSOTROS</h2>
+
+            <div class="w3-container w3-justify w3-padding-large w3-light-gray">
+                <p>
+                    Somos una firma de servicios contables, financieros, tributarios, legales y empresariales que contamos con profesionales altamente capacitados y más de 20 años de experiencia, además que trabajamos con un grupo de firmas contables y de auditoría que asegura la calidad de nuestro servicio, acompañado a nuestra metodología ágil y efectiva, da los mejores resultados en corto tiempo y sin invadir sus espacios. <br><br>
+                    Integramos un grupo de profesionales y especialistas, calificados para atender las necesidades de los clientes con altos niveles de exigencia y calidad. Más allá de los servicios que presta G.C.G, sus integrantes actuamos como personas de negocios con amplio conocimiento de las áreas de actividad de nuestros clientes, brindando un apoyo integral en temas estratégicos, operativos y de gestión. <br><br>
+                    Nuestro estilo supone trabajo en equipo, respeto por las personas, brindar opiniones fundadamente y comunicación abierta. Capacitamos a nuestra gente en forma permanente para enfrentar los cambios en el ambiente de negocios, en aspectos regulatorios y en las herramientas de gestión. Buscamos mantener una visión integral orientada a los negocios de nuestros clientes.
+                </p>
+            </div>
+            
+            <div class="w3-row w3-padding-large w3-margin-top w3-margin-bottom">
+                <div class="w3-col w3-half w3-center">
+                    <div class="w3-display-container w3-hover-opacity">
+                        <img src="./res/profile-svgrepo-com.svg" alt="Avatar" class="w3-image profile-img">
+                        <div class="w3-display-middle w3-display-hover w3-large">
+                            <button class="w3-button w3-indigo" onclick="openModal('founder-1')">Conoce más</button>
+                        </div>
+                        <h4 class="w3-center">CELESTE GIMENEZ</h4>
+                    </div>
+                    <div id="founder-1" class="w3-modal">
+                        <div class="w3-modal-content w3-card-2 w3-animate-opacity">
+                            <div class="w3-container w3-indigo w3-center"> 
+                                <span onclick="closeModal('founder-1')" class="w3-button w3-display-topright">&times;</span>
+                                <h3>CELESTE GIMENEZ</h3>
+                            </div>
+                            <div class="w3-container w3-justify w3-padding-large">
+                                <p>
+                                Egresada de la Universidad Nacional de Asunción como Licenciada en Contabilidad. Especialista en Tributación con Postgrado de la Universidad Autónoma de Asunción. Ejerce la profesión desde hace 20 años y posee gran experiencia en el área contable, tributario y Control de Gestión.
+                                <br><br>
+                                Sus méritos académicos incluyen cursos de especialización con énfasis en ISO 9001 y MECIP. Auditora Certificada en Normas para PYMES (Normas Internacionales de Información Financiera para Pequeñas y Medianas Entidades). Asociación Interamericana de Contabilidad. A.I.C - Talleres de Capacitación de Aplicación de la Normas Internacional de Auditoria para trabajos de Aseguramiento ISAE 3000.
+                                <br><br>
+                                Ha realizado trabajos para empresas internacionales en las áreas de Control Presupuestario, Auditorias, Consultorías y Asesorías a empresas reconocida en el mercado, además de realizar varias implementaciones de Sistemas Informáticos de Gestión. Ha realizado numerosos cursos de capacitación en el Paraguay, sobre Auditoria, Impuestos, Contabilidad y Gestión de Calidad.
+                                <br><br>
+                                Desempeño cargos de relevancia en Firmas Auditoras en el Paraguay. En tal carácter ha desempeñado trabajos como Supervisora de Auditoría y Consultoría en Entidades nacionales e internacionales del Sector Privado, la industria, el comercio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-col w3-half w3-center">
+                    <div class="w3-display-container w3-hover-opacity">
+                        <img src="./res/profile-svgrepo-com.svg" alt="Avatar" class="w3-image profile-img">
+                        <div class="w3-display-middle w3-display-hover w3-large">
+                            <button class="w3-button w3-indigo" onclick="openModal('founder-2')">Conoce más</button>
+                        </div>
+                        <h4 class="w3-center">MARTA MARTINEZ LOCIO</h4>
+                    </div>
+                    <div id="founder-2" class="w3-modal">
+                        <div class="w3-modal-content w3-card-2 w3-animate-opacity">
+                            <div class="w3-container w3-indigo w3-center"> 
+                                <span onclick="closeModal('founder-2')" class="w3-button w3-display-topright">&times;</span>
+                                <h3>MARTA MARTINEZ LOCIO</h3>
+                            </div>
+                            <div class="w3-container w3-justify w3-padding-large">
+                                <p>
+                                    Egresada de la Universidad Nacional de Asunción como Contadora Publica con Post Grado en Didáctica Universitaria en la Universidad Católica Ntra. Sra. de la Asunción, Especialización en Auditoria, Impuestos y Procedimientos en el Instituto Superior de Formación Tributaria y Empresarial.
+                                    <br><br>
+                                    Ha realizado varios cursos, seminarios y certificaciones, algunos como el Seminario Taller de Capacitación de Aplicación de la Normas Internacional de Auditoria para trabajos de Aseguramiento ISAE 3000, Elaboración y Evaluación de Proyectos de Inversión. Prevención de Lavado de Dinero y Financiamiento del Terrorismo, Asesoramiento Tributario para personas físicas, entre otros.
+                                    <br><br>
+                                    Ha trabajado en Importantes empresas del país, en Áreas de Auditoría Externa, Contabilidad y Consultoría, Control Interno y Recursos Humanos con más de 10 años de experiencia. Además, como Docente Universitaria en las Carreras de Contabilidad y Auditoría en la Universidad de Integración de las Américas y Universidad Nordeste del Paraguay en la carrera de Contabilidad y Administración en el Año 2015.
+                                    <br><br>
+                                    También como profesional independiente desde el año 2012 en el Área de Contabilidad y Auditoría realizando todos los procesos que preparación, confección, verificación y emisión de informes.                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About us section END-->
+    </main>
+
+    <footer class="w3-center w3-indigo w3-padding-16">
+        <div class="w3-xlarge w3-section w3-center">
+            <a class="fab fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/" target="_blank"></a>
+            <a class="fab fa-facebook w3-hover-opacity" href="https://www.facebook.com/" target="_blank"></a>
+            <a class="fab fa-twitter w3-hover-opacity" href="https://www.twitter.com/" target="_blank"></a>
+        </div>
+        <p class="w3-wide w3-center">G.C.G. ASOCIADOS</p>
+        <p class="w3-wide w3-center">&#169; 2020</p>
+    </footer>
+</body>
+</html>

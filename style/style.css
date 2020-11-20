@@ -1,0 +1,73 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+/* Global styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_global\.scss}line{font-family:\000031}}
+html {
+  scroll-behavior: smooth; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_global\.scss}line{font-family:\000035}}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_global\.scss}line{font-family:\0000312}}
+.to-the-top {
+  position: sticky;
+  top: 0; }
+
+/* Sidebar */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_nav\.scss}line{font-family:\000031}}
+nav {
+  display: none;
+  padding-top: 150px; }
+
+/* Header */
+/* Create a Parallax Effect */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_header\.scss}line{font-family:\000032}}
+.bgimg-header {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../res/bg-image-header.jpg");
+  min-height: 100%; }
+
+/* Main */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_main\.scss}line{font-family:\000032}}
+main .cover-letter-content {
+  font-family: 'Courgette', cursive; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_main\.scss}line{font-family:\000037}}
+main .service .img-section {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_main\.scss}line{font-family:\0000311}}
+main .service .service-feature-button {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_main\.scss}line{font-family:\0000315}}
+main .service .service-feature-button-half {
+  width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_main\.scss}line{font-family:\0000319}}
+main .service .service-feature-button-third {
+  width: 33.33%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_main\.scss}line{font-family:\0000323}}
+main .service .service-feature-button-quarter {
+  width: 25%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_main\.scss}line{font-family:\0000329}}
+main .about-us .profile-img {
+  max-height: 200px; }
+
+/* Footer */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_footer\.scss}line{font-family:\000032}}
+footer a {
+  text-decoration: none; }
+
+/* Media queries */
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/gcg-asociados\/style\/partials\/_media-queries\.scss}line{font-family:\000033}}
+  .bgimg-header {
+    background-attachment: scroll;
+    min-height: 500px; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+/* Create a Parallax Effect */
+.bgimg-header {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        background-image: url("../../res/bg-image-header.jpg");
+        min-height: 100%;
+}
